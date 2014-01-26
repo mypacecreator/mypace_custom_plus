@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*
+Theme Name: mypace custom plus
+Theme URI: http://mypacecreator.net/theme/category/mypace-custom-plus/
+Description: mypace customの子テーマ。カスタム投稿タイプを搭載。
+Version: 1.4
+Author: Kei Nomura(@mypacecreator)
+Author URI: http://mypacecreator.net/
+License: GNU General Public License
+License URI: license.txt
+Template: mypace_custom
+*/
+
+
+/* 「詳しく見る」ボタン
+-------------------------------------------------------------- */
+a.readNext {
+	color: #FFF; 
+	font-size: large;
+	font-weight: bold; 
+	padding: 10px 2em;
+	margin: 10px 10px 20px;
+	background: #333;
+	background: -webkit-gradient(linear, left top, left bottom,color-stop(0, rgb(129, 125, 133)), color-stop(1, rgb(0, 0, 0))) ;
+	background: -moz-linear-gradient(top,rgb(129, 125, 133) 0%, rgb(0, 0, 0) 100%) ;
+	border: 1px solid #999999;
+	-webkit-box-shadow: 1px 1px 1px #ccc;
+	-moz-box-shadow: 1px 1px 1px #ccc;
+	-webkit-text-shadow: 1px 1px 1px #ccc;
+	-moz-text-shadow: 1px 1px 1px #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	float: right;
+	display: block;
+}
+
+a.readNext:hover {
+	color: #FF9;
+	background: #cd0000;
+	background: -webkit-gradient(linear, left top, left bottom,color-stop(0, #ff1a00), color-stop(1, #cd0000));
+	background: -moz-linear-gradient(top,#ff1a00 0%, #cd0000 100%);
+	border: 1px solid #999999;
+	-webkit-box-shadow: 1px 1px 1px #ccc;
+	-moz-box-shadow: 1px 1px 1px #ccc;
+	-webkit-text-shadow: 1px 1px 1px #ccc;
+	-moz-text-shadow: 1px 1px 1px #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
